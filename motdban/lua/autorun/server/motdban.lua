@@ -24,7 +24,7 @@ if CLIENT then
 		Frame:SetVisible( true )
 		Frame:ShowCloseButton(false)
 		Frame:SetDraggable(false)
-		Frame:SetKeyboardInputEnabled(false)
+		Frame:SetKeyboardInputEnabled(false) 
 		Frame:SetMouseInputEnabled(false)
 		Frame:MakePopup()
 		local html = vgui.Create( "HTML", Frame )
